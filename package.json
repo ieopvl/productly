@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ieopvl/productly/issues"
   },
-  "homepage": "https://github.com/ieopvl/productly#readme"
+  "homepage": "https://github.com/ieopvl/productly#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
