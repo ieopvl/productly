@@ -1,0 +1,59 @@
+.tools__wrapper {
+  padding-bottom: 90px;
+
+  background-image: url(../../img/backgrounds/tools-bg.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.tools__title {
+  max-width: 462px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+
+  text-align: center;
+}
+
+.tools__button {
+  margin-top: 60px;
+  text-align: center;
+
+  @include media-mobile {
+    margin-top: 0;
+  }
+}
+
+//Tool block
+.tool {
+@include media-tablet {
+  text-align: center;
+}
+}
+
+.tool__container {
+  @include media-tablet {
+    flex-wrap: wrap;
+
+    >.tool {
+      flex-basis: 43%;
+    }
+  }
+
+  @include media-mobile {
+    flex-wrap: wrap;
+
+    >.tool {
+      flex-basis: 100%;
+      margin-bottom: 47px;
+    }
+  }
+}
+
+.tool__icon {
+  margin-bottom: 30px;
+}
+
+.tool__title {
+  margin: 0 0 16px;
+}
